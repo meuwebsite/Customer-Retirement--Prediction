@@ -1,7 +1,7 @@
 # Customer-Retirement--Prediction
 
 
-![fb](images/fb9.png)
+![fb](images/cr7.png)
 
 
 # Background
@@ -30,26 +30,38 @@ Open Google Colab https://colab.research.google.com/ and in the Navbar go to:
 
 # Proccess
 
-Import the data set and visualize the data
-
- .tail() is a method used to return bottom n (5 by default) rows of a data frame or series.
+Import the data set and visualizing the properties
+# 
 
 ![fb](images/cr1.png)
 
-With Box plot
+With Pairgrid from Seaborn library, vizualizing the data points
+#  
 ![fb](images/cr2.png)
 
+With .count function, vizualing false and positives input
+#  
 ![fb](images/cr3.png)
 
-
-With Histogram
+Transforming the data andSplinting into train and test
+#  
 ![fb](images/cr4.png)
 
-Transforming the data and Executing a training Test 
+Using Confusion Matrix to Evaluating the Model
+#  
 ![fb](images/cr5.png)
 
-With Confusion Matrix, checking on the accuracy
+#### Improving the model
+* Scalling X_train
+* Visualing points for X_train
+* Visualing points for X_train_Scalled
+#  
 ![fb](images/cr6.png)
 
-With Confusion Matrix, checking on the accuracy
+
+#### Improving even more the model
+* Importing Gridsearch  from Sklearn library
+* Match best combinations to find the best parameters to the model
+* Confusion Matrix with the result
+#  
 ![fb](images/cr7.png)
